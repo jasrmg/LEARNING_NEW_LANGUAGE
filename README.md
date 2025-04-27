@@ -1,10 +1,12 @@
 # 365 Daily Programming Language Learning Tasks
-List of tasks to do to learn a 
-new programming language 
+
+List of tasks to do to learn a
+new programming language
 but only spending 10 minutes a day
 (10 minutes per day)
 
 ## Beginner Tasks
+
 1. setup environment/compiler and print out hello world
 2. declare 2 string variables, 1 is hello, 1 is world, concatenate to say hello world
 3. Trim whitespace from strings using built in function
@@ -24,48 +26,40 @@ but only spending 10 minutes a day
 17. print out current unix timestamp in seconds and milliseconds using built in functions if available
 18. print out the current date time but with the specific format: `Mon Jan 13 2025 14:54:30`
 19. output remaining seconds on the current day
-30. get remaining milliseconds of current the day
-31. get remaining microseconds of the current day
-32. ask for a year input and output if it's a leap year or not using built in functions if possible
-33. ask for date input and convert to unix timestamp
-16. print out the date/time on New York City
-17. add 1 hour interval to current time and output (date/time manipulation [oop??])
-18. get date yesterday and output (date/time manipulation [substraction and rounding off])
-19. Ask for a number input, throw an error when it's not a number
-20. Ask for an float number input and output it as rounded number
-21. Ask for 2 number inputs, output their sum
-22. Ask for 2 string inputs, check if the first string contains the 2nd string, output yes or no
-23. for loop: count up to ten in words, using associative array or hashmap
-24. ask for one of two defined languages, count up to ten in words on the language chosen
-25. for loop: list of time on different timezones (use associative array or standard object)
-26. add new timezones on the list on previous task using array_push() and array_unshift() equivalent
-27. complete 24 timezones list (numeric array of objects/assoc array)
-28. remove 2 random timezones from the timezone list on the previous task
-29. Loop through the 24 timezone list, and search for the timezone of the running machine, then output, and break the loop using "break" keyword or it's equivalent
-30. ask for 2 date inputs, and output which one is greater, use ternary operator or it's equivalent to do this.
-35. new: Create a function to calculate the cube of a number
-36. ask for input and tell how old it is in days (rounded off) [substraction, division]
-37. ask for date input and tell how many days remaining until said date, but throw an error if it's a not future date (substraction, division, exceptions/error logging)
-38. output fibonacci sequence (base 1) on each keypress
-
+20. get remaining milliseconds of current the day
+21. get remaining microseconds of the current day
+22. ask for a year input and output if it's a leap year or not using built in functions if possible
+23. ask for date input and convert to unix timestamp
+24. print out the date/time on New York City
+25. add 1 hour interval to current time and output (date/time manipulation [oop??])
+26. get date yesterday and output (date/time manipulation [substraction and rounding off])
+27. Ask for a number input, throw an error when it's not a number
+28. Ask for an float number input and output it as rounded number
+29. Ask for 2 number inputs, output their sum
+30. Ask for 2 string inputs, check if the first string contains the 2nd string, output yes or no
+31. for loop: count up to ten in words, using associative array or hashmap
+32. ask for one of two defined languages, count up to ten in words on the language chosen
+33. for loop: list of time on different timezones (use associative array or standard object)
+34. add new timezones on the list on previous task using array_push() and array_unshift() equivalent
+35. complete 24 timezones list (numeric array of objects/assoc array)
+36. remove 2 random timezones from the timezone list on the previous task
+37. Loop through the 24 timezone list, and search for the timezone of the running machine, then output, and break the loop using "break" keyword or it's equivalent
+38. ask for 2 date inputs, and output which one is greater, use ternary operator or it's equivalent to do this.
+39. new: Create a function to calculate the cube of a number
+40. ask for input and tell how old it is in days (rounded off) [substraction, division]
+41. ask for date input and tell how many days remaining until said date, but throw an error if it's a not future date (substraction, division, exceptions/error logging)
+42. output fibonacci sequence (base 1) on each keypress
 
 TO be reviewed(some from AI)
 
-
-34. reverse string using built in function(s) 
+34. reverse string using built in function(s)
 35. reverse string using loop by character iteration
 36. reverse string using function recursion
 37. split string using a delimiter
 38. join a character array to form a string
 39. get the domain of an email address
 
-
-new: Create a simple multi-dimensional array
-34. new: Add elements to nested arrays
-36. new: Convert an array to a set (remove duplicates)
-37. new: Find the intersection of two arrays
-38. new: Find the difference between two arrays
-
+new: Create a simple multi-dimensional array 34. new: Add elements to nested arrays 36. new: Convert an array to a set (remove duplicates) 37. new: Find the intersection of two arrays 38. new: Find the difference between two arrays
 
 73. new: Create an array of objects
 74. new: Sort an array of numbers
@@ -94,44 +88,45 @@ new: Create a simple multi-dimensional array
 97. new: Create a phone number validation function
 98. new: Create a postal/zip code validation function
 99. new: Implement a simple input masking function
-100. ask for 2 inputs and then output them 5 seconds later
-101. new: Use setTimeout to delay execution
-102. new: Use setInterval to repeat code execution
-103. new: Clear an interval timer
-104. new: Create a basic countdown timer
-105. ask for 2 number inputs as right triangle legs and calculate triangle area
-106. ask for 2 number inputs as adjacent rectangle legs and calculate the circumference of the rectangle
-107. ask for 2 number inputs as adjacent rectangle legs and calculate rectangle area
-108. ask for 2 number inputs as right triangle legs and calculate the hypotenuse
-109. ask for 2 number inputs as right triangle legs and calculate the circumference
-110. new: Calculate the area of a circle from radius
-111. new: Calculate the volume of a sphere
-112. new: Calculate the area of a trapezoid
-113. new: Calculate the perimeter of a regular polygon
-114. ask for 3 number inputs as triangle legs, and determine the type of the triangle (right, iso, scalene)
-115. new: Check if a set of numbers can form a valid triangle
-116. new: Calculate the distance between two points in 2D space
-117. new: Apply the quadratic formula to solve equations
-118. TOA: ask for 1 degree angle input and 1 number input as theta and adjacent leg of a right triangle, to get length of the opposite leg
-119. TOA: ask for 1 degree angle input and 1 number input as theta and opposite leg of a right triangle respectively, to get length of the adjacent leg
-120. TOA: ask for 2 number inputs as the length opposite and adjacent legs relative to one of the corners of a right triangle, to get the angle of that corner.
-121. new: Create a function that converts between Celsius and Fahrenheit
-122. new: Calculate BMI from height and weight inputs
-123. SOH: ask for 2 number inputs as the length of opposite(relative to corner x) and the length of hypotenuse of a right triangle to calculate the angle of corner x(theta)
-124. SOH: ask for a degree angle input and 1 number input as theta and opposite leg(relative to theta), to calculate the length hypotenuse of a right angle
-125. SOH: ask for a degree angle input and 1 number input as theta and length of hypotenuse, to calculate the length of the opposite leg(relative to theta)
-126. new: Create a function to check if a string is a palindrome
-127. new: Implement a case-insensitive string comparison function
-128. CAH: Ask for 2 number inputs: the length of the adjacent side (relative to corner x) and the length of the hypotenuse of a right triangle. Calculate the angle of corner x (theta).
-129. CAH: Ask for a degree angle input (theta) and one number input as the adjacent leg (relative to theta). Calculate the length of the hypotenuse.
-130. CAH: Ask for a degree angle input (theta) and one number input as the hypotenuse. Use these to calculate the length of the adjacent leg (relative to theta).
-131. new: Create a simple command-line calculator
-132. new: Create a function to generate a random password
-133. new: Check if a number is prime
-134. new: Find all prime numbers up to n (Sieve of Eratosthenes)
-135. new: Implement a function to find the GCD of two numbers
+100.  ask for 2 inputs and then output them 5 seconds later
+101.  new: Use setTimeout to delay execution
+102.  new: Use setInterval to repeat code execution
+103.  new: Clear an interval timer
+104.  new: Create a basic countdown timer
+105.  ask for 2 number inputs as right triangle legs and calculate triangle area
+106.  ask for 2 number inputs as adjacent rectangle legs and calculate the circumference of the rectangle
+107.  ask for 2 number inputs as adjacent rectangle legs and calculate rectangle area
+108.  ask for 2 number inputs as right triangle legs and calculate the hypotenuse
+109.  ask for 2 number inputs as right triangle legs and calculate the circumference
+110.  new: Calculate the area of a circle from radius
+111.  new: Calculate the volume of a sphere
+112.  new: Calculate the area of a trapezoid
+113.  new: Calculate the perimeter of a regular polygon
+114.  ask for 3 number inputs as triangle legs, and determine the type of the triangle (right, iso, scalene)
+115.  new: Check if a set of numbers can form a valid triangle
+116.  new: Calculate the distance between two points in 2D space
+117.  new: Apply the quadratic formula to solve equations
+118.  TOA: ask for 1 degree angle input and 1 number input as theta and adjacent leg of a right triangle, to get length of the opposite leg
+119.  TOA: ask for 1 degree angle input and 1 number input as theta and opposite leg of a right triangle respectively, to get length of the adjacent leg
+120.  TOA: ask for 2 number inputs as the length opposite and adjacent legs relative to one of the corners of a right triangle, to get the angle of that corner.
+121.  new: Create a function that converts between Celsius and Fahrenheit
+122.  new: Calculate BMI from height and weight inputs
+123.  SOH: ask for 2 number inputs as the length of opposite(relative to corner x) and the length of hypotenuse of a right triangle to calculate the angle of corner x(theta)
+124.  SOH: ask for a degree angle input and 1 number input as theta and opposite leg(relative to theta), to calculate the length hypotenuse of a right angle
+125.  SOH: ask for a degree angle input and 1 number input as theta and length of hypotenuse, to calculate the length of the opposite leg(relative to theta)
+126.  new: Create a function to check if a string is a palindrome
+127.  new: Implement a case-insensitive string comparison function
+128.  CAH: Ask for 2 number inputs: the length of the adjacent side (relative to corner x) and the length of the hypotenuse of a right triangle. Calculate the angle of corner x (theta).
+129.  CAH: Ask for a degree angle input (theta) and one number input as the adjacent leg (relative to theta). Calculate the length of the hypotenuse.
+130.  CAH: Ask for a degree angle input (theta) and one number input as the hypotenuse. Use these to calculate the length of the adjacent leg (relative to theta).
+131.  new: Create a simple command-line calculator
+132.  new: Create a function to generate a random password
+133.  new: Check if a number is prime
+134.  new: Find all prime numbers up to n (Sieve of Eratosthenes)
+135.  new: Implement a function to find the GCD of two numbers
 
 ## Intermediate-Advanced Tasks
+
 134. new: Create a class that extends another class (inheritance)
 135. new: Override a parent class method
 136. new: Use super to call parent class methods
@@ -179,6 +174,7 @@ new: Create a simple multi-dimensional array
 178. new: Implement a simple memoization utility
 
 ## Advanced Tasks
+
 179. new: Implement the Bubble Sort algorithm
 180. new: Implement the Selection Sort algorithm
 181. new: Implement the Insertion Sort algorithm
@@ -242,6 +238,7 @@ new: Create a simple multi-dimensional array
 239. new: Build a basic logger with different levels
 
 ## Expert Tasks
+
 240. new: Create a simple domain-specific language
 241. new: Build a parser for a custom markup language
 242. new: Implement a lexer/tokenizer
@@ -293,7 +290,7 @@ new: Create a simple multi-dimensional array
 288. new: Create a simple ray tracer
 289. new: Implement Conway's Game of Life
 290. new: Build a basic physics engine
-291. new: Create an A* pathfinding implementation
+291. new: Create an A\* pathfinding implementation
 292. new: Implement fluid simulation
 293. new: Build a simple blockchain with proof-of-work
 294. new: Create a distributed consensus algorithm
