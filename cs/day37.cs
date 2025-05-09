@@ -1,26 +1,3 @@
-void printTZ(Dictionary<string, string> dict) {
-//print all dict values
-int count = 1;
-foreach (var zone in dict)
-{
-  try
-  {
-    TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById(zone.Value);
-    DateTime localTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, tz);
-    Console.WriteLine($"{count}. {zone.Key}: {localTime}");
-    count++;
-  }
-  catch (TimeZoneNotFoundException)
-  {
-    Console.WriteLine($"{zone.Key} not found!");
-  }
-  catch (InvalidTimeZoneException)
-  {
-    Console.WriteLine($"{zone.Key} invalid!");
-  }
-}
-}
-
 Dictionary<string, string> timeZones = new Dictionary<string, string>
 {
   {"New York", "Eastern Standard Time"},
@@ -52,22 +29,16 @@ Dictionary<string, string> timeZones = new Dictionary<string, string>
   {"Beijing", "China Standard Time"}
 };
 
-Console.WriteLine("DIFFERENT TIMEZONES");
+//get the time zone id of the machine:
+string localTimeZone = TimeZoneInfo.Local.Id;
 
-//print all dict values
-printTZ(timeZones);
-
-//get keys as a list
-List<string> keys = new List<string>(timeZones.Keys);
-Random random = new Random();
-
-//remove 2 random keys
-for (int i = 0; i < 2; i++)
+foreach(var zone in timeZones)
 {
-  int randomIndex = random.Next(keys.Count);
-  string keyToRemove = keys[randomIndex];
-  timeZones.Remove(keyToRemove);
-  keys.RemoveAt(randomIndex);
-  Console.WriteLine($"Timezone removed: {keyToRemove}");
+  if (zone.Value == localTimeZone)
+  {
+    TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById(zone.Value);
+    DateTime localTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, tz);
+    Console.WriteLine($"The timezone of the running machine: {zone.Key}: {localTime}");
+    break;
+  }
 }
-printTZ(timeZones);
