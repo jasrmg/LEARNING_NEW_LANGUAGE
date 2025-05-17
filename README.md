@@ -49,6 +49,8 @@ but only spending 10 minutes a day
 40. ask for input and tell how old it is in days (rounded off) [substraction, division]
 41. ask for date input and tell how many days remaining until said date, but throw an error if it's a not future date (substraction, division, exceptions/error logging)
 42. output fibonacci sequence (base 1) on each keypress
+43. Ask for a number input, throw an error when it's not a number
+44. Ask for an float number input and output it as rounded number
 
 TO be reviewed(some from AI)
 
